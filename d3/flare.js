@@ -1,13 +1,13 @@
 var flare1 = {
-	"name" : "root",
+	"name" : "flare",
 	"children" : [],
 };
 
-flare1.children.push(
-	{	"name": "nigga please", "size": 3534 }
-);
+var np = {	"name": "nigga please", "size": 3534 };
 
-/*flare1.children.push({
+flare1.children.push(np);
+
+flare1.children.push({
 	"name" : "dr dre",
 	"children" : []
 });
@@ -17,7 +17,23 @@ flare1.children[1].children.push({
 	"children" : [
 		{"name" : "Kaylee", "size": 3534},
 		{"name": "Kevin", "size": 3000	}]
-});*/
+});
+
+var obj = { "name" : "barack"};
+var obj2 = {"name" : "chess openings" };
+
+assignParent(obj, np);
+assignParent(obj2, flare1);
+
+var childofobj = {"name" : "jon snow the white walker"};
+assignParent(childofobj, obj);
+
+
+function assignParent(child, parent){
+	if (!parent.children)
+		parent.children = [];
+	parent.children.push(child);	
+}
 
 var flare = {
  "name": "flare",
