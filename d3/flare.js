@@ -3,7 +3,7 @@ var flare1 = {
 	"children" : [],
 };
 
-var np = {	"name": "nigga please", "size": 3534 };
+var np = {	"name": "hello world", "size": 3534 };
 
 flare1.children.push(np);
 
