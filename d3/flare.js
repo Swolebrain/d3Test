@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 var flare1 = {
 	"name" : "flare",
 	"children" : [],
@@ -37,6 +38,8 @@ function assignParent(child, parent){
 	parent.children.push(child);	
 }
 
+=======
+>>>>>>> Stashed changes
 var flare = {
  "name": "flare",
  "children": [
