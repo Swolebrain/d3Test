@@ -69,20 +69,3 @@ catA.addChild(new ChessNode("Komodo vs. some other chess engine"));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
