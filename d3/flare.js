@@ -25,6 +25,8 @@ var obj2 = {"name" : "chess openings" };
 assignParent(obj, np);
 assignParent(obj2, flare1);
 
+//assignParent({"name": "tyrion"}, kaylee4);
+
 var childofobj = {"name" : "jon snow the white walker"};
 assignParent(childofobj, obj);
 
