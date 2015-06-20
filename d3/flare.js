@@ -59,7 +59,7 @@ root.addChild(new ChessNode("Mid Game"));
 root.addChild(new ChessNode("End Game"));
 
 var op = root.getFirstChildByName("Openings");
-var categories = ["A", "B", "C", "D", "E"];
+var categories = ["<a href=\"http://www.swolebrain.com/chess\">A</a>", "B", "C", "D", "E"];
 for (var i = 0, l = categories.length; i < l ; i++)
 	op.addChild(new ChessNode(categories[i]));
 	
